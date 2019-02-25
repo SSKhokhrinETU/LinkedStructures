@@ -3,18 +3,18 @@
 
 using namespace std;
 
-struct sField
+struct Field
 {
 	int numb;
-	sField *next;
+	Field *next;
 };
 
 int main()
 {
 
 
-	sField a, b, c;
-	sField *p = &a;
+	Field a, b, c;
+	Field *p = &a;
 
 	a.next = &b;
 	b.next = &c;
