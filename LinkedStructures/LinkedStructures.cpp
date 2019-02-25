@@ -6,7 +6,7 @@ using namespace std;
 struct sField
 {
 	int numb;
-	struct sField *next;
+	sField *next;
 };
 
 int main()
